@@ -124,4 +124,5 @@ avg_data <- data %>%
   dplyr::group_by(Subject, Activity) %>% 
   dplyr::summarise_all(funs(mean))
 
-write.csv(avg_data, "Averaged_Data.csv")
+#Write Table 
+write.table(avg_data, "Averaged_Data.txt", row.names = F)
