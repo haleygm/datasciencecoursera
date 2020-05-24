@@ -62,6 +62,24 @@ Notes:
 
 For more information about this dataset contact: activityrecognition@smartlab.ws
 
+
+Analysis Steps:
+======================================
+For each data set (testing/training)
+1. Import data
+2. Clean data by properly labelling activity ('y' files) and measurement variables ('x' files)
+3. Bind subject, activity, and feature columns once properly labelled 
+4. Label individuals as testing or training group 
+5. Repeat for other group (testing or training) 
+
+6. Bind rows of testing and training group 
+7. Transform all feature variables to numerics (they went in as characters originally)
+8. Calculate mean for each subject-activity combinations' features (ie: mean of the mean feature and mean of the std dev. feature)
+9. Write final data table  
+
+Note, only working directory must be changed in run_analysis to obtain my data sets. 
+
+
 License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
