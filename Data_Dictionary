@@ -61,3 +61,5 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
+In the final data set, Averaged_Data.txt, the mean for each Feature selection (mean and sd) are provided.
+
