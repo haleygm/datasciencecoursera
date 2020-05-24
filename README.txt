@@ -44,15 +44,15 @@ The dataset includes the following files:
 
 - 'features.txt': Provides the variable name for each column in X_test.txt and X_train.txt 
 
-- 'train/X_train.txt': Training set (variable measurements)
+- 'Data/train/X_train.txt': Training set (variable measurements)
 
-- 'train/y_train.txt': Training labels (activity)
+- 'Data/train/y_train.txt': Training labels (activity)
 
-- 'test/X_test.txt': Test set (variable measurements)
+- 'Data/test/X_test.txt': Test set (variable measurements)
 
-- 'test/y_test.txt': Test labels (activity)
+- 'Data/test/y_test.txt': Test labels (activity)
 
-- "Averaged_Data.csv": Final tidy data set of average for each subject-activity combination's variables
+- 'Averaged_Data.csv': Final tidy data set of average for each subject-activity combination's variables
 
 
 Notes: 
